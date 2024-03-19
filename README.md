@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Frontend Documentation
 
 ## Available Scripts
 
@@ -39,32 +37,27 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+**1. Dashboard:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Displays a list of all customers with search and pagination features.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Allows users to search for customers by first_name, last_name, and city.
 
-### Code Splitting
+- Implements pagination for navigating through the list of customers.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**2. Customer Information Page:**
 
-### Analyzing the Bundle Size
+- Accessed by clicking on a customer's name in the dashboard.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Shows detailed information about the selected customer.
 
-### Making a Progressive Web App
+- Provides a back button to navigate back to the dashboard.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Edit customer functionality with profile attachment
 
-### Advanced Configuration
+**3. City List Page:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Accessed via a button on the dashboard.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Displays a list of unique cities along with the number of customers from each city.
+- Allows users to view the distribution of customers across different cities.
